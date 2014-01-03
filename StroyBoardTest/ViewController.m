@@ -14,7 +14,12 @@
 
 @implementation ViewController
 typedef void (^Arr_Block)(NSArray *array);
+#pragma mark - PublicMethods
+-(void)newMethod {
+    NSLog(@"new method.");
+}
 
+#pragma mark - Origin
 - (void)viewDidLoad
 {
     [super viewDidLoad];

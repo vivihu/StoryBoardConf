@@ -12,4 +12,6 @@
 
 @property (nonatomic, strong) NSString *(^myBlock)(NSString *str);
 
+- (void)newMethod;
+
 @end
