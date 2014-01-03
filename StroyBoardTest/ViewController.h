@@ -10,4 +10,6 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) NSString *(^myBlock)(NSString *str);
+
 @end
